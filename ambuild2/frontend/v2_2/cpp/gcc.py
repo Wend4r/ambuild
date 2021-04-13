@@ -129,7 +129,8 @@ class Clang(GCCLookalike):
 
     @property
     def debugInfoArgv(self):
-        return ['-g3']
+        # return ['-g3']
+        return []
 
     def nameForPch(self, source_file):
         return source_file + '.pch'

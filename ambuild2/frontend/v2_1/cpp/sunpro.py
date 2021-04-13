@@ -47,7 +47,8 @@ class SunPro(Vendor):
 
     @property
     def debugInfoArgv(self):
-        return ['-g3']
+        # return ['-g3']
+        return []
 
     def parseDebugInfoType(self, debuginfo):
         return debuginfo
